@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Zadanie rekrutacyjne</title>
+   <link rel="stylesheet" href="style.css" type="text/css" />
+   <script src="script.js" defer></script>
+   <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+   <div class="text-content">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras nec dui nibh. Cras venenatis est metus, dictum sagittis augue vulputate at. Donec id nibh at eros bibendum posuere at eget neque. Ut venenatis magna nec ex luctus accumsan. Vivamus porta vulputate sem, a interdum tellus. Pellentesque vitae leo non felis pellentesque auctor. Aliquam erat volutpat. Quisque mollis, justo ut rutrum luctus, arcu magna finibus massa, vitae dictum neque lorem in velit. Cras pretium pellentesque feugiat. Sed sit amet felis felis. Fusce ut lorem eu dolor facilisis hendrerit eu porttitor eros. Sed cursus elit non semper rutrum. Praesent euismod ipsum eros, ut volutpat nisi lobortis vel. Fusce quis pellentesque augue.</p>
+      <p>Ut ac sem neque. Aenean pulvinar purus sed libero fermentum, et laoreet risus efficitur. Suspendisse potenti. Donec eu malesuada mauris. Aenean nec varius nibh. Morbi id justo eu dolor euismod condimentum at eu sapien. Praesent sed nisl gravida, varius nibh eu, sagittis felis. In hac habitasse platea dictumst. Proin dapibus libero vitae finibus bibendum. Pellentesque laoreet ornare enim at porta. Etiam blandit justo ipsum. Curabitur vitae sem metus. Cras consectetur urna lorem, a aliquet velit ultricies ut. Curabitur malesuada lacus est, quis porta leo lobortis eu.</p>
+   </div>
+   <div class="chart-content">
+      <div class="chart">
+         <div class="loader"></div> 
+         <canvas id="age-chart"></canvas>
+      </div>
+      <div class="table">
+         <table id="people_table">
+         </table>
+      </div>
+   </div>
+   <button oncilck="loadData()" class="btn-show-data">Load data</button>
+   <div class="text-content-2"> <!-- dodać zmianę koloru tła co 5 odświeżeń strony -->
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dapibus elit a diam aliquet facilisis. Duis nisi est, pellentesque et tempus id, suscipit sit amet purus. Suspendisse bibendum a diam at accumsan. Nam auctor sed enim sit amet suscipit. Suspendisse aliquet felis felis, sed tempus est malesuada in. Nullam vel sodales orci. Vivamus viverra consectetur bibendum. Interdum et malesuada fames ac ante ipsum primis in faucibus. Nunc et scelerisque orci. Donec tristique semper tellus a convallis. Aenean in enim vitae lacus pretium molestie in eget leo. Suspendisse eu tempor dolor. Phasellus mauris nunc, sagittis sed leo vel, egestas auctor sem. Nunc vulputate magna iaculis turpis vehicula mattis.</p>
+      <p>Ut a eros eget justo porta dignissim. Phasellus et neque non tortor vulputate maximus nec non ipsum. Nullam lectus ipsum, ornare in faucibus id, blandit sed nisl. Etiam ornare pulvinar arcu non pharetra. Fusce molestie ut dolor ut tempor. In sit amet commodo mauris. Aenean imperdiet lacus quis elit lacinia, at sagittis ex tempus. Proin dapibus dignissim magna, id hendrerit mauris fermentum vel. Integer eget fringilla dui. Suspendisse potenti. Maecenas vitae tincidunt erat, ac feugiat enim. Donec efficitur augue lorem, vel faucibus dolor tristique vel. Nam suscipit fringilla porttitor.</p>
+      <p>Phasellus viverra sagittis erat. Sed lectus leo, eleifend id ligula sodales, convallis lacinia elit. Pellentesque nunc nisi, efficitur ac eros at, volutpat hendrerit nunc. Donec et felis sed nisi fringilla dignissim. Mauris consequat luctus nulla sed porta. Etiam dolor odio, efficitur sed tincidunt vel, imperdiet consectetur massa. Cras posuere lectus sed libero tempus commodo. Donec pretium justo nisl, eget venenatis lectus hendrerit id. Nam semper dolor vitae lacinia malesuada.</p> 
+   </div>
+</body>
+</html>
